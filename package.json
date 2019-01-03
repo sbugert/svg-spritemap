@@ -1,0 +1,22 @@
+{
+  "name": "svg-spritemap",
+  "version": "0.0.2",
+  "description": "generate a svg spritemap string from a folder of svg files",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "cross-spawn": "^6.0.5",
+    "svgo": "^1.0.5"
+  },
+  "devDependencies": {
+    "jest": "^23.1.0"
+  },
+  "author": "accosine",
+  "contributors": [
+    "Simon Bugert <simon.bugert@gmail.com>"
+  ],
+  "license": "BSD-2-Clause"
+}

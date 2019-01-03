@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`does not insert new title if old exists 1`] = `"<svg xmlns=\\"http://www.w3.org/2000/svg\\" style=\\"display: none;\\"><defs><symbol width=\\"300\\" height=\\"200\\" baseProfile=\\"full\\" id=\\"svg-test3\\"><title>test 3 title</title><rect width=\\"100%\\" height=\\"100%\\"/></symbol></defs></svg>"`;
+
+exports[`generates svg spritemap for files in directory 1`] = `"<svg xmlns=\\"http://www.w3.org/2000/svg\\" style=\\"display: none;\\"><defs><symbol width=\\"300\\" height=\\"200\\" baseProfile=\\"full\\" id=\\"svg-test\\"><title>test</title><rect width=\\"100%\\" height=\\"100%\\"/><circle cx=\\"150\\" cy=\\"100\\" r=\\"80\\"/><text x=\\"150\\" y=\\"125\\" font-size=\\"60\\" text-anchor=\\"middle\\">SVG</text></symbol><symbol width=\\"300\\" height=\\"200\\" baseProfile=\\"full\\" id=\\"svg-test2\\"><title>test2</title><rect width=\\"100%\\" height=\\"100%\\"/></symbol></defs></svg>"`;
+
+exports[`omits svg tag 1`] = `"<defs><symbol width=\\"300\\" height=\\"200\\" baseProfile=\\"full\\" id=\\"svg-test\\"><title>test</title><rect width=\\"100%\\" height=\\"100%\\"/><circle cx=\\"150\\" cy=\\"100\\" r=\\"80\\"/><text x=\\"150\\" y=\\"125\\" font-size=\\"60\\" text-anchor=\\"middle\\">SVG</text></symbol><symbol width=\\"300\\" height=\\"200\\" baseProfile=\\"full\\" id=\\"svg-test2\\"><title>test2</title><rect width=\\"100%\\" height=\\"100%\\"/></symbol></defs>"`;
